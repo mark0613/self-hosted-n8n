@@ -9,7 +9,7 @@ services:
     command: tunnel run
 
   n8n:
-    image: docker.n8n.io/n8nio/n8n:2.4.8
+    image: docker.n8n.io/n8nio/n8n:2.16.0
     env_file: n8n.env
     ports:
       - "5678:5678"
